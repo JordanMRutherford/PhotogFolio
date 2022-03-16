@@ -2,10 +2,10 @@
   "name": "photog_folio",
   "version": "1.0.0",
   "description": "Photography Portfolio Page",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel ./Views/Landing/index.html",
-    "build": "parcel build ./Views/Landing/index.html" 
+    "build": "parcel build ./Views/Landing/index.html --dist-dir ./dist" 
   },
   "author": "Jordan Rutherford",
   "license": "ISC",
