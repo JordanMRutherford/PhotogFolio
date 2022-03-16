@@ -1,0 +1,130 @@
+body {
+  font-family: urw-din, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+#upper {
+  height: 10vh;
+}
+
+#mid {
+  height: 10vh;
+}
+
+#lower {
+  height: 80vh;
+}
+
+#brand {
+  font-size: 3.25vh;
+}
+
+#linkText {
+  font-size: 3.5vh;
+}
+
+#footer {
+  font-size: 1.5vh;
+}
+
+@media (min-width: 360px) {
+  #mid {
+    height: 11vh;
+  }
+}
+@media (min-width: 410px) {
+  #mid {
+    height: 12vh;
+  }
+}
+@media (min-width: 768px) {
+  #brand {
+    font-size: 3vh;
+  }
+
+  #nameFlair {
+    height: 3.25vh;
+  }
+
+  #lower {
+    height: 86.75vh;
+  }
+
+  #linkText {
+    font-size: 2vh;
+  }
+
+  #footer {
+    font-size: 1vh;
+  }
+}
+@media (min-width: 1024px) {
+  #brand {
+    font-size: 3.5vh;
+  }
+
+  #linkText {
+    font-size: 2.5vh;
+  }
+
+  #footer {
+    font-size: 1.5vh;
+  }
+}
+@media (min-width: 1440px) {
+  #brand {
+    font-size: 3.5vh;
+  }
+
+  #nameFlair {
+    height: 4.5vh;
+  }
+
+  #navbarSupportedContent {
+    font-size: 2.5vh;
+  }
+
+  #lower {
+    height: 87vh;
+  }
+
+  #linkText {
+    font-size: 3vh;
+  }
+
+  #footer {
+    font-size: 1.5vh;
+  }
+}
+@media (min-width: 1920px) {
+  #navbarSupportedContent {
+    font-size: 2.7vh;
+  }
+
+  #lower {
+    height: 86.5vh;
+  }
+
+  #linkText {
+    font-size: 3vh;
+  }
+
+  .bi-instagram {
+    margin-bottom: 0.25rem;
+  }
+
+  .bi-pinterest {
+    margin-bottom: 0.25rem;
+  }
+}
+@media (min-width: 2460px) {
+  #brand {
+    font-size: 3.75vh;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,51 @@
+body.modal-open {
+  overflow: visible;
+}
+
+.pic {
+  position: relative;
+  overflow: hidden;
+}
+.pic img:nth-child(1) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#lower {
+  height: 100vh;
+}
+
+@media (min-width: 768px) and (orientation: landscape) and (prefers-reduced-motion: no-preference) {
+  .pic {
+    position: relative;
+    overflow: hidden;
+  }
+  .pic img:nth-child(1) {
+    position: absolute;
+    opacity: 1;
+  }
+  .pic img:nth-child(1):hover {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+  .pic img:nth-child(2):hover {
+    transform: scale(1.1);
+    transition: all 500ms ease-in-out;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) and (max-width: 768px) {
+  #lower {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+@media (min-width: 2460px) {
+  #lower {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+{
+  "name": "photog_folio",
+  "version": "1.0.0",
+  "description": "Photography Portfolio Page",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./Views/Landing/index.html",
+    "build": "parcel build ./Views/Landing/index.html" 
+  },
+  "author": "Jordan Rutherford",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.3.2"
+  }
+}

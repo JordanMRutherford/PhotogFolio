@@ -1,0 +1,14 @@
+node_modules
+dist
+.parcel-cache
+Views/Landing/styles.scss
+Views/Landing/styles.css.map
+Views/Portfolio/styles.scss
+Views/Portfolio/styles.css.map
+Views/Bio/styles.scss
+Views/Bio/styles.css.map
+Views/Contact/styles.scss
+Views/Contact/styles.css.map
+Views/Shared/styles.scss 
+Views/Shared/styles.css.map 
+
