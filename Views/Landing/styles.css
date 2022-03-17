@@ -1,6 +1,8 @@
 body {
+  min-height: -webkit-fill-available;
+  height: 100vh;
   font-family: urw-din, sans-serif;
-  background-image: url("../../Img/Web/landing.jpg");
+  background-image: url("/Photog/Img/Web/landing.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
