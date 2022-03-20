@@ -1,6 +1,4 @@
 body {
-  min-height: -webkit-fill-available;
-  height: 100vh;
   font-family: urw-din, sans-serif;
   background-image: url("/Photog/Img/Web/landing.jpg");
   background-repeat: no-repeat;
@@ -19,6 +17,10 @@ div a:nth-of-type(2) {
 
 #nameFlair {
   height: 3vh;
+}
+
+#textbox_mobile {
+  margin-bottom: 15vh;
 }
 
 @media screen and (min-width: 768px) {
